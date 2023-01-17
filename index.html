@@ -21,43 +21,49 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container header-content">
         <a href="" lang="en" class="logo"
           ><span class="accent">Web</span>Studio</a
         >
         <nav class="navigation">
           <ul class="nav-list">
-            <li><a href="index.html" class="nav-link activated">Студія</a></li>
-            <li><a href="portfolio.html" class="nav-link">Портфоліо</a></li>
-            <li><a href="#" class="nav-link">Контакти</a></li>
+            <li class="nav-list-items">
+              <a href="index.html" class="nav-link activated">Студія</a>
+            </li>
+            <li class="nav-list-items">
+              <a href="portfolio.html" class="nav-link">Портфоліо</a>
+            </li>
+            <li class="nav-list-items">
+              <a href="#" class="nav-link">Контакти</a>
+            </li>
           </ul>
         </nav>
         <ul class="contact-list">
-          <li>
+          <li class="contact-list-item">
             <a href="mailto:info@devstudio.com" class="contact-link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="contact-list-item">
             <a href="tel:+380961111111" class="contact-link"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
-      </header>
-    </div>
+      </div>
+    </header>
+
     <main class="main">
       <section class="hero">
         <div class="container">
-          <div class="hero-content">
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="button">Замовити послугу</button>
-          </div>
+          <h1>Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="button">Замовити послугу</button>
         </div>
       </section>
-      <div class="container">
-        <section class="section">
+
+      <section class="section">
+        <div class="container">
           <ul class="properties-list">
             <li class="properties-item">
               <h3 class="properties-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -87,8 +93,10 @@
               </p>
             </li>
           </ul>
-        </section>
-        <section class="section">
+        </div>
+      </section>
+      <section class="section no-padding">
+        <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="example-list">
             <li class="example-list-item">
@@ -116,8 +124,9 @@
               />
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <section class="section employer-section">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>

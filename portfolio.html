@@ -21,33 +21,42 @@
     <title>WebStudio</title>
   </head>
   <body id="portfolio">
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container header-content">
         <a href="" lang="en" class="logo"
           ><span class="accent">Web</span>Studio</a
         >
         <nav class="navigation">
           <ul class="nav-list">
-            <li><a href="index.html" class="nav-link activated">Студія</a></li>
-            <li><a href="portfolio.html" class="nav-link">Портфоліо</a></li>
-            <li><a href="#" class="nav-link">Контакти</a></li>
+            <li class="nav-list-items">
+              <a href="index.html" class="nav-link activated">Студія</a>
+            </li>
+            <li class="nav-list-items">
+              <a href="portfolio.html" class="nav-link">Портфоліо</a>
+            </li>
+            <li class="nav-list-items">
+              <a href="#" class="nav-link">Контакти</a>
+            </li>
           </ul>
         </nav>
         <ul class="contact-list">
-          <li>
+          <li class="contact-list-item">
             <a href="mailto:info@devstudio.com" class="contact-link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="contact-list-item">
             <a href="tel:+380961111111" class="contact-link"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
-      </header>
-      <main>
-        <section class="section filter-section">
+      </div>
+    </header>
+
+    <main>
+      <section class="section filter-section">
+        <div class="container">
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
               <button type="button" class="portfolio-list-button activated">
@@ -203,9 +212,10 @@
               </a>
             </li>
           </ul>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+    </main>
+
     <footer class="footer">
       <div class="container">
         <a href="" class="logo" lang="en"
