@@ -256,6 +256,9 @@ body {
 .address-list li {
   margin-bottom: 4px;
 }
+.address-list li:last-child {
+  margin-bottom: 0;
+}
 .address-link {
   font-size: 14px;
   line-height: 1.5;
@@ -323,26 +326,22 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: var(--card-set-gap);
-  /* margin-left: calc(-1 * var(--card-set-gap)); */
-  /* margin-top: calc(-1 * var(--card-set-gap)); */
 }
 .project-list-item {
-  /* flex-basis: calc((100% - 2 * var(--card-set-gap)) / 3); */
   width: 370px;
   font-size: 16px;
   line-height: 1.875;
-  border: 1px solid #eeeeee;
-
-  /* margin-right: var(--card-set-gap); */
-  /* margin-top: var(--card-set-gap); */
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .project-list-item a {
   color: var(--lighter-text);
   display: block;
 }
 .item-text-holder {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
   padding-bottom: 20px;
   padding-top: 20px;
 }
