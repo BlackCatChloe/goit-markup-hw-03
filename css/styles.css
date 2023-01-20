@@ -111,6 +111,9 @@ body {
 .contact-link:focus {
   color: var(--accent-color);
 }
+.nav-link:active {
+  color: var(--accent-color);
+}
 .nav-link.activated {
   color: var(--accent-color);
 }
@@ -347,4 +350,7 @@ body {
 }
 .item-text-holder h3 {
   margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--darker-text);
 }
